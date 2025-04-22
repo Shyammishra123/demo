@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BOGO Offer</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h2 class="heading">YAY! It's BOGO</h2>
+
+    <div class="card popular" onclick="selectCard(this)">
+        
+        <input type="radio" name="unit"/>
+        <div class="offer">10% Off</div>
+        <div class="details">
+          <p><strong>1 Unit</strong></p>
+          <p>Standard Price</p>
+          <div class="dropdowns">
+            <div class="row"><p class="number">#1</p>
+              <select><option>S</option><option>M</option><option>L</option></select>
+             
+              <select><option>Black</option><option>White</option><option>Blue</option></select>
+             
+            </div>
+            <div class="row"><p class="number">#2</p>
+                <select><option>S</option><option>M</option><option>L</option></select>
+             
+                <select><option>Colour</option></select>
+            </div>
+          </div>
+        </div>
+        <div class="price">
+          <p>$10.00 USD</p>
+          <del>$24.00 USD</del>
+        </div>
+      </div>
+
+    <div class="card popular" onclick="selectCard(this)">
+      <div class="badge">MOST POPULAR</div>
+      <input type="radio" name="unit"/>
+      <div class="offer">20% Off</div>
+      <div class="details">
+        <p><strong>2 Unit</strong></p>
+        <div class="dropdowns">
+          <div class="row"><p class="number">#1</p>
+            <select><option>S</option><option>M</option><option>L</option></select>
+             
+            <select><option>Black</option><option>White</option><option>Blue</option></select>
+          </div>
+          <div class="row"><p class="number">#2</p>
+            <select><option>S</option><option>M</option><option>L</option></select>
+             
+              <select><option>Colour</option></select>
+          </div>
+        </div>
+      </div>
+      <div class="price">
+        <p>$18.00 USD</p>
+        <del>$24.00 USD</del>
+      </div>
+    </div>
+
+    
+    <div class="card popular" onclick="selectCard(this)">
+       
+        <input type="radio" name="unit"/>
+        <div class="offer">30% Off</div>
+        <div class="details">
+          <p><strong>3 Unit</strong></p>
+          <div class="dropdowns">
+           
+            <div class="row">
+                
+                <p class="number">#1</p><select><option>S</option><option>M</option><option>L</option></select>
+             
+                <select><option>Black</option><option>White</option><option>Blue</option></select>
+           
+            </div>
+            <div class="row"><p class="number">#2</p>
+                <select><option>S</option><option>M</option><option>L</option></select>
+             
+                <select><option>Colour</option></select>
+            </div>
+          </div>
+        </div>
+        <div class="price">
+          <p>$24.00 USD</p>
+          <del>$24.00 USD</del>
+        </div>
+      </div>
+      <p class="delievery">Free delievery</p>  
+    <p class="price2"><strong>Total:$18.00USD</strong></p>
+    
+
+    <button class="cart-btn">+ Add to Cart</button>
+    <p class="powered">@ Powered by Pumper</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
